@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:link{color: aliceblue;}
+a:hover{color: red;}
+a:active{color: aliceblue;}
+a:visited{color: aliceblue;}
+
+header{
+    height: 100px;
+    background-color: #593426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    height: 100px;
+    background-color: #593426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+nav ul li{}
+nav ul li a{
+    display: block;
+    width: 220px;
+    text-align: center;
+    font-family: "Sitka Text", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 0px;
+
+}
+
+section{
+    height: 3069px;
+    background-image: url(img/sub04.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+
+.text_box01{
+    height: 350px;
+    text-align: center;
+    font-family: "Noto Serif KR", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0px;
+}
+
+.text_box02{
+    height: 348px;
+    text-align: left;
+    font-family: "Noto Serif KR", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0px;
+    margin-left: 600px;
+    margin-top: 70px;
+    color: white;
+}
+
+.text_box03{
+    height: 348px;
+    text-align: left;
+    font-family: "Noto Serif KR", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0px;
+    margin-left: -600px;
+    margin-top: 300px;
+    color: white;
+}
+
+.text_box04{
+    height: 248px;
+    text-align: left;
+    font-family: "Noto Serif KR", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0px;
+    margin-left: 600px;
+    margin-top: 230px;
+    color: white;
+}
+
+.text_box05{
+    height: 348px;
+    text-align: left;
+    font-family: "Noto Serif KR", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0px;
+    margin-left: -600px;
+    margin-top: 350px;
+    color: white;
+}
